@@ -1,0 +1,31 @@
+{
+  "name": "sui-coin-merger",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Sui Coin Merger is a powerful tool designed for interacting with SUI networks. This bot automates merging processes of all coin making it an ideal solution for you to merge all coin assets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "keywords": [
+    "sui-bot",
+    "sui-coin-merger",
+    "sui-merge-bot",
+    "rambeboy"
+  ],
+  "author": "Rambeboy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rambeboy/sui-coin-merger.git"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.13.0",
+    "blessed": "^0.1.81",
+    "input": "^1.0.1",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0"
+  }
+}
